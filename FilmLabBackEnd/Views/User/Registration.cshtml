@@ -1,0 +1,34 @@
+﻿@model RegRequest
+
+<div class="reg_content">
+    <form class="reg-inner-content" asp-action="Registration">
+        <div class="form-group">
+            <label asp-for="Name">Имя</label>
+            <input asp-for="Name" type="text" class="form-control" id="inputEmail">
+        </div>
+        
+        <div class="form-group">
+            <label asp-for="Nickname">Никнейм</label>
+            <input asp-for="Nickname" type="text" class="form-control" id="inputEmail">
+        </div>
+        
+        <div class="form-group">
+                    <label asp-for="Email">Адрес электронной почты</label>
+                    <input asp-for="Email" type="text" class="form-control" id="inputEmail">
+                </div>
+        
+        <div class="form-group">
+            <label asp-for="Password">Пароль (от 8 до 16 символов, оба регистра)</label>
+            <input asp-for="Password" type="password" class="form-control" id="inputPassword">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ConfirmPassword">Confirm Password</label>
+            <input asp-for="ConfirmPassword" type="password" class="form-control" id="inputConfirmPassword">
+        </div>
+        
+        <button type="submit" class="btn btn-primary reg-btn">Регистрация</button>
+    </form>
+</div>
+
+    

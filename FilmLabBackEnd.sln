@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmLabBackEnd", "FilmLabBackEnd\FilmLabBackEnd.csproj", "{ADD5DFC4-1D10-41C4-988D-1A6B6ECC0431}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD5DFC4-1D10-41C4-988D-1A6B6ECC0431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD5DFC4-1D10-41C4-988D-1A6B6ECC0431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD5DFC4-1D10-41C4-988D-1A6B6ECC0431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD5DFC4-1D10-41C4-988D-1A6B6ECC0431}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
