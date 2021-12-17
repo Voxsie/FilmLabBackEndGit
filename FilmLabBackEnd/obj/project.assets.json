@@ -12627,11 +12627,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd/FilmLabBackEnd.csproj",
+      "projectUniqueName": "/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/FilmLabBackEnd.csproj",
       "projectName": "FilmLabBackEnd",
-      "projectPath": "/Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd/FilmLabBackEnd.csproj",
+      "projectPath": "/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/FilmLabBackEnd.csproj",
       "packagesPath": "/Users/zheltikov/.nuget/packages/",
-      "outputPath": "/Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd/obj/",
+      "outputPath": "/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/zheltikov/.nuget/NuGet/NuGet.Config"
@@ -12721,7 +12721,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/zheltikov/.dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
       }
     }
   },

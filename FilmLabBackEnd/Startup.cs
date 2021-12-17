@@ -33,6 +33,7 @@ namespace FilmLabBackEnd
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
+            services.AddDirectoryBrowser();
 
             
             services.AddMvc();
@@ -66,6 +67,7 @@ namespace FilmLabBackEnd
             }
 
             app.UseStaticFiles();
+            app.UseFileServer();
 
             app.UseRouting();
 

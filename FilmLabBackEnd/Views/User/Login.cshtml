@@ -1,14 +1,15 @@
 ﻿@model AuthRequest
 
-<div class="reg_content">
+<div class="reg_content auth-window">
+<h2 class="login-text" id="authorization-text">Авторизация</h2>
     <form class="reg-inner-content" asp-action="Login">
-        <div class="form-group">
-            <label asp-for="Email">Email</label>
-            <input asp-for="Email" type="text" class="form-control" id="inputEmail">
+        <div class="form-group login-text">
+            <label asp-for="Email">Ваш адрес электронной почты</label>
+            <input asp-for="Email" type="text" class="form-control login-input" id="inputEmail">
         </div>
-        <div class="form-group">
-            <label asp-for="Password">Password</label>
-            <input asp-for="Password" type="password" class="form-control" id="inputPassword">
+        <div class="form-group login-text">
+            <label asp-for="Password">Ваш пароль</label>
+            <input asp-for="Password" type="password" class="form-control login-input" id="inputPassword">
         </div>
         <button type="submit" class="btn btn-primary reg-btn">Войти</button>
     </form>

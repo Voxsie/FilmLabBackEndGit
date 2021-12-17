@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{ADD5DFC4-1D10-41C4-988D-1A6B6ECC0431}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../usr/local/share/dotnet/sdk/6.0.101/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.DefaultItems.targets">
+    <Files>
+      <File FileName="FilmLabBackEnd/obj/Debug/net6.0/FilmLabBackEnd.GlobalUsings.g.cs" Line="15" Column="1" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/6.0.101/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.DefaultItems.targets" Line="134" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FilmLabBackEnd" expanded="True">
+            <Node name="FilmLabBackEnd" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FilmLabBackEnd PreferredExecutionTarget="/Applications/Yandex.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
