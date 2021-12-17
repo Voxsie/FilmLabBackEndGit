@@ -10,11 +10,5 @@ namespace FilmLabBackEnd.Controllers
             return View();
         }
 
-        
-        
-        public IActionResult Privacy()
-        {
-            return View();
-        }
     }
 }

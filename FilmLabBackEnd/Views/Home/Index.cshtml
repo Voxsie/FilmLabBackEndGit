@@ -2,7 +2,184 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item" style="background-image: url('images/carousel/background1.jpeg');">
+                <a href="film.html">
+                    <h1 class="carousel-title">Человек паук: Нет пути домой (2021)</h1>
+                    <h2>Рейтинг ожидания фильма: 98%</h2>
+                    <iframe width="560" height="315"
+                            src="https://www.youtube-nocookie.com/embed/V0hagz_8L3M"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay;
+                            clipboard-write; encrypted-media;
+                            gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </a>
+            </div>
+            <div style="background-image: url('images/carousel/background2.jpeg');" class="carousel-item">
+                <a href="films.html">
+                    <h1>Джиперс Криперс: Возрожденный (2021)</h1>
+                    <h2>Рейтинг ожидания фильма: 98%</h2>
+                    <iframe width="560" height="315"
+                            src="https://www.youtube-nocookie.com/embed/vGCCzXcw-p0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write;
+                            encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </a>
+            </div>
+
+            <div style="background-image: url('images/carousel/background3.jpeg');" class="carousel-item">
+                <a href="films.html">
+                    <h1>Тихая ночь (2021)</h1>
+                    <h2>Рейтинг ожидания фильма: 96%</h2>
+                    <iframe width="560" height="315"
+                            src="https://www.youtube-nocookie.com/embed/2nUF8h0cO7U"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay;
+                            clipboard-write; encrypted-media;
+                            gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </a>
+            </div>
+            <div style="background-image: url('images/carousel/background4.jpeg');" class="carousel-item">
+                <a href="films.html">
+                    <h1>Один дома (1990)</h1>
+                    <h2>Идеальная комедия к Новому году</h2>
+                    <iframe width="560" height="315"
+                            src="https://www.youtube-nocookie.com/embed/D340MvFGEEI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay;
+                            clipboard-write; encrypted-media;
+                            gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </a>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <span class="prev"></span>
+            <span class="next"></span>
+        </div>
+        <div class="carousel-indicators"></div>
+    </div>
+
+    <script src="js/carousel.js"></script>
+    <!--=========== Carousel =============-->
+
+    <div class="films-index">
+        <div class="film-category">
+            <h1>С самым высоким рейтингом</h1>
+            <button class="button-more-films">Еще фильмы</button>
+        <div class="area-button">
+        </div>
+        </div>
+        <div class="film-list">
+            <div class="film-list-item">
+                <a href="films.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-green-mile.jpeg">
+                    <h2>Зеленая миля (9.1)</h2>
+                </a>
+            </div>
+            <div class="film-list-item">
+                <a href="films.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-shawshank-redemption.jpeg">
+                    <h2>Побег из Шоушенка (8.9)</h2>
+                </a>
+            </div>
+            <div class="film-list-item">
+                <a href="films.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-the-lord-of-the-rings-the-return-of-the-king.jpeg">
+                    <h2>Властелин колец:<br>Возвращение короля (8.6)</h2>
+                </a>
+            </div>
+            <div class="film-list-item">
+                <a href="films.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-the-lord-of-the-rings-the-two-towers.jpeg">
+                    <h2>Властелин колец:<br>Две крепости (8.6)</h2>
+                </a>
+            </div>
+            <div class="film-list-item">
+                <a href="films.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-the-lion-king.jpeg">
+                    <h2>Король Лев (8.5)</h2>
+                </a>
+            </div>
+        </div>
+        <div class="film-category">
+            <h1>Самые ожидаемые фильмы</h1>
+            <button class="button-more-films">Еще фильмы</button>
+        </div>
+        <div class="film-list">
+            <div class="film-list-item">
+                <a href="film.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-spiderman3.jpeg">
+                    <h2>Человек паук: <br>Нет пути домой (98%)</h2>
+                </a>
+            </div>
+            <div class="film-list-item">
+                <a href="films.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-jipers-kripers.jpeg">
+                    <h2>Джиперс Криперс:<br>Возрожденный (98%)</h2>
+                </a>
+            </div>
+            <div class="film-list-item">
+                <a href="films.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-silient-night.jpeg">
+                    <h2>Тихая ночь (98%)</h2>
+                </a>
+            </div>
+            <div class="film-list-item">
+                <a href="films.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-zveropoi2.jpeg">
+                    <h2>Зверопой 2 (97%)</h2>
+                </a>
+            </div>
+            <div class="film-list-item">
+                <a href="films.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-world-champion-ru.jpeg">
+                    <h2>Чемпион мира (96%)</h2>
+                </a>
+            </div>
+        </div>
+        <div class="film-category">
+            <h1>С новогодней атмосферой</h1>
+            <button class="button-more-films">Еще фильмы</button>
+        </div>
+        <div class="film-list">
+            <div class="film-list-item">
+                <a href="films.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-home-along.jpeg">
+                    <h2>Один дома (1990)</h2>
+                </a>
+            </div>
+            <div class="film-list-item">
+                <a href="films.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-home-alone2.jpeg">
+                    <h2>Один дома 2:<br>Затерянный в Нью-Йорке (1992)</h2>
+                </a>
+            </div>
+            <div class="film-list-item">
+                <a href="films.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-christmas-cottage.jpeg">
+                    <h2>Рождественский коттедж (2008)</h2>
+                </a>
+            </div>
+            <div class="film-list-item">
+                <a href="films.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-how-the-grinch-stole-christmas.jpeg">
+                    <h2>Гринч – похититель Рождества (2000)</h2>
+                </a>
+            </div>
+            <div class="film-list-item">
+                <a href="films.html">
+                    <img class="film-preview-pic" src="images/films/preview/film-green-book.jpeg">
+                    <h2>Зеленая книга (2018)</h2>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-before">
+    </div>
+    

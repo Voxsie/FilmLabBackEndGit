@@ -8,45 +8,41 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FilmLabBackEnd
 build_property.RootNamespace = FilmLabBackEnd
-build_property.ProjectDir = /Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd/
+build_property.ProjectDir = /Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd
+build_property.MSBuildProjectDirectory = /Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd/Views/Home/Index.cshtml]
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd/Views/Shared/Error.cshtml]
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd/Views/User/Login.cshtml]
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd/Views/User/Registration.cshtml]
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/User/Registration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9SZWdpc3RyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd/Views/_ViewImports.cshtml]
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd/Views/_ViewStart.cshtml]
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-c7fz517cam

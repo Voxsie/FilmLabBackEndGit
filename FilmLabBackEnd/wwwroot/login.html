@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Film Lab - Авторизация</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<!--=========== Loader =============-->
+<div id="preloader">
+    <div id="gen-loading-center">
+        <img src="images/logo-1.png" alt="loading">
+    </div>
+</div>
+<script src="js/preloader.js"></script>
+<!--=========== Loader =============-->
+
+<!--=========== Header =============-->
+<header>
+    <div id="header-div">
+        <div id="header-logo">
+            <a href="index.html"><img src = "images/logo-1.png" alt="logo" height="75"></a>
+        </div>
+        <div id=navigation-bar">
+            <ul id="navbar">
+                <li><a href="films.html" class="header-menu">Фильмы</a></li>
+                <li><a href="gallery.html" class="header-menu">Галерея</a></li>
+                <li><a href="biography.html" class="header-menu">Биографии</a></li>
+                <li><a href="about.html"class="header-menu" >О нас</a></li>
+                <a href="login.html"><img src="images/auth-selected.png" id="auth-image"></a>
+            </ul>
+        </div>
+    </div>
+</header>
+<!--=========== Header =============-->
+
+<!--=========== Body =============-->
+<div class="auth-window">
+    <h2 class="login-text" id="authorization-text">Авторизация</h2>
+    <form action="" method="post" class="form">
+
+        <div class="form-field login-text">
+            <input class="login-input" type="email" placeholder="Ваш адрес электронной почты">
+        </div>
+
+        <div class="form-field login-text">
+            <input class="login-input" type="password" placeholder="••••••••••••">
+        </div>
+
+        <div class="form-field">
+            <input class="login-button" type="submit" value="Авторизоваться">
+        </div>
+        <div class="login-text signup-text">
+            Нет аккаунта? <br><a href="signin.html"> Зарегистритуйтесь!</a></br>
+        </div>
+    </form>
+</div>
+<!--=========== Body =============-->
+<div class="footer-before">
+</div>
+<footer class="footer-distributed">
+    <div class="footer-right">
+        <a href="https://vk.com/i.zheltikov">
+            <img class="footer-social-network-icon" src="images/footer/vk.png">
+        </a>
+        <a href="https://instagram.com/i.zheltikov">
+            <img class="footer-social-network-icon" src="images/footer/inst.png">
+        </a>
+        <a href="https://github.com/Voxsie">
+            <img class="footer-social-network-icon" src="images/footer/github.png">
+        </a>
+    </div>
+    <div class="footer-left">
+        <p class="footer-links">
+            <a class="link-1" href="index.html">Главная </a>
+            <a href="films.html">Фильмы </a>
+            <a href="gallery.html">Галерея </a>
+            <a href="biography.html">Биографии </a>
+            <a href="about.html">О нас</a>
+        </p>
+        <p>FilmLab &copy; 2021</p>
+    </div>
+</footer>
+</body>
+</html>
