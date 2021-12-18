@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y9MS1O9ptzCW4gnhxnvDk7X1qzbnUz4/Vjopr4E5omezZsekG4HbSt9JEQv/OVIH6uwaWtEqwwAitQk7sM/BHA==",
+  "dgSpecHash": "J44uMbLWr8g47lrDdcu/BUmYcFmjzrNN7RD6/DFywiVADY40wnO1iU9nyMdmjXfD1WaO6fDsWJuYMkRA/4ClUw==",
   "success": true,
-  "projectFilePath": "/Users/zheltikov/RiderProjects/FilmLabBackEnd/FilmLabBackEnd/FilmLabBackEnd.csproj",
+  "projectFilePath": "/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/FilmLabBackEnd.csproj",
   "expectedPackageFiles": [
     "/Users/zheltikov/.nuget/packages/autofac/5.1.0/autofac.5.1.0.nupkg.sha512",
     "/Users/zheltikov/.nuget/packages/autofac.extensions.dependencyinjection/6.0.0/autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",
