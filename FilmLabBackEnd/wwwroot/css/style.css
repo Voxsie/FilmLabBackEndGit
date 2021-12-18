@@ -172,10 +172,11 @@ Auth
 .login-text {
     text-align: center;
     font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 10px;
 }
 
 #authorization-text {
-    padding-top: 60px;
+    padding-top: 20px;
     color: var(--grey-color);
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 32px;
@@ -184,9 +185,10 @@ Auth
 }
 
 .form-field {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .login-input {
+    margin-top: 10px;
     width: 220px;
     height: 30px;
     color: var(--grey-color);
@@ -204,6 +206,7 @@ Auth
 }
 
 .login-button {
+    margin-top: 10px;
     width: 180px;
     height: 30px;
     color: var(--grey-color);

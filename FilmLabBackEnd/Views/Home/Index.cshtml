@@ -1,11 +1,11 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Главная";
 }
 
     <div class="carousel">
         <div class="carousel-inner">
             <div class="carousel-item" style="background-image: url('images/carousel/background1.jpeg');">
-                <a href="film.html">
+                <a asp-controller="Home" asp-action="spiderman3">
                     <h1 class="carousel-title">Человек паук: Нет пути домой (2021)</h1>
                     <h2>Рейтинг ожидания фильма: 98%</h2>
                     <iframe width="560" height="315"
@@ -18,7 +18,7 @@
                 </a>
             </div>
             <div style="background-image: url('images/carousel/background2.jpeg');" class="carousel-item">
-                <a href="films.html">
+                <a asp-controller="Home" asp-action="jipers4">
                     <h1>Джиперс Криперс: Возрожденный (2021)</h1>
                     <h2>Рейтинг ожидания фильма: 98%</h2>
                     <iframe width="560" height="315"
@@ -31,7 +31,7 @@
             </div>
 
             <div style="background-image: url('images/carousel/background3.jpeg');" class="carousel-item">
-                <a href="films.html">
+                <a asp-controller="Home" asp-action="silentnight">
                     <h1>Тихая ночь (2021)</h1>
                     <h2>Рейтинг ожидания фильма: 96%</h2>
                     <iframe width="560" height="315"
@@ -44,7 +44,7 @@
                 </a>
             </div>
             <div style="background-image: url('images/carousel/background4.jpeg');" class="carousel-item">
-                <a href="films.html">
+                <a asp-controller="Home" asp-action="films">
                     <h1>Один дома (1990)</h1>
                     <h2>Идеальная комедия к Новому году</h2>
                     <iframe width="560" height="315"

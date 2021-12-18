@@ -1,37 +1,41 @@
 ﻿@model RegRequest
 
+@{
+    ViewData["Title"] = "Регистрация";
+}
+
 <div class="reg_content auth-window">
     <h2 class="login-text" id="authorization-text">Регистрация</h2>
     <form class="reg-inner-content form" asp-action="Registration">
         <div class="form-group form-field login-text">
-            <label asp-for="Name">Имя</label>
-            <input asp-for="Name" type="text" class="form-control login-input">
+            <label asp-for="Name">.</label>
+            <input asp-for="Name" type="text" placeholder="Имя" class="form-control login-input">
         </div>
         
         <div class="form-group form-field login-text">
-            <label asp-for="Nickname">Никнейм</label>
-            <input asp-for="Nickname" type="text" class="form-control login-input">
+            <label asp-for="Nickname">.</label>
+            <input asp-for="Nickname" type="text" placeholder="Никнейм" class="form-control login-input">
         </div>
         
         <div class="form-group form-field login-text">
-            <label asp-for="Email">Адрес электронной почты</label>
-            <input asp-for="Email" type="text" class="form-control login-input">
+            <label asp-for="Email">.</label>
+            <input asp-for="Email" type="text" placeholder="Адрес электронной почты" class="form-control login-input">
         </div>
         
         <div class="form-group form-field login-text">
-            <label asp-for="Password">Пароль (от 8 до 16 символов, оба регистра)</label>
-            <input asp-for="Password" type="password" class="form-control login-input" id="InputPassword">
+            <label asp-for="Password">.</label>
+            <input asp-for="Password" type="password" placeholder="Пароль (от 8 до 16 символов, оба регистра)" class="form-control login-input" id="InputPassword">
         </div>
 
         <div class="form-group form-field login-text">
-            <label asp-for="ConfirmPassword">Подтвердите пароль</label>
-            <input asp-for="ConfirmPassword" type="password" class="form-control login-input" id="inputConfirmPassword">
+            <label asp-for="ConfirmPassword">.</label>
+            <input asp-for="ConfirmPassword" type="password" placeholder="Подтвердите пароль" class="form-control login-input" id="inputConfirmPassword">
         </div>
         
         <button type="submit" class="btn btn-primary reg-btn login-button">Регистрация</button>
         
         <div class="login-text signup-text">
-            Уже зарегистрированы? <br><a href="Login.cshtml"> Авторизуйтесь!</a></br>
+            Уже зарегистрированы? <br><a asp-controller="User" asp-action="Login"> Авторизуйтесь!</a></br>
         </div>
     </form>
 </div>

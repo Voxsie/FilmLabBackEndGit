@@ -1,16 +1,23 @@
 ﻿@model AuthRequest
 
+@{
+    ViewData["Title"] = "Авторизация";
+}
+
 <div class="reg_content auth-window">
 <h2 class="login-text" id="authorization-text">Авторизация</h2>
     <form class="reg-inner-content" asp-action="Login">
         <div class="form-group login-text">
-            <label asp-for="Email">Ваш адрес электронной почты</label>
-            <input asp-for="Email" type="text" class="form-control login-input" id="inputEmail">
+            <label asp-for="Email">.</label>
+            <input asp-for="Email" type="text" placeholder="Ваш адрес электронной почты" class="form-control login-input" id="inputEmail">
         </div>
         <div class="form-group login-text">
-            <label asp-for="Password">Ваш пароль</label>
-            <input asp-for="Password" type="password" class="form-control login-input" id="inputPassword">
+            <label asp-for="Password">.</label>
+            <input asp-for="Password" type="password" placeholder="Ваш пароль" class="form-control login-input" id="inputPassword">
         </div>
-        <button type="submit" class="btn btn-primary reg-btn">Войти</button>
+        <button type="submit" class="btn btn-primary reg-btn login-button">Войти</button>
     </form>
+    <div class="login-text signup-text">
+                Еще не зарегистрированы? <br> <a asp-controller="User" asp-action="Registration"> Зарегистрируйтесь!</a></br>
+            </div>
 </div>

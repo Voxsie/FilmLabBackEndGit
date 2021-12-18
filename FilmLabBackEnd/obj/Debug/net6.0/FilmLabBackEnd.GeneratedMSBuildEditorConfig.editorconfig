@@ -15,8 +15,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Home/about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9hYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Home/biography.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9iaW9ncmFwaHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Home/films.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9maWxtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Home/gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9nYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Home/jipers4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9qaXBlcnM0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Home/profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9wcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Home/silentnight.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zaWxlbnRuaWdodC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Home/spiderman3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zcGlkZXJtYW4zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Home/tomholland.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS90b21ob2xsYW5kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/zheltikov/RiderProjects/FilmLabBackEnd — копия/FilmLabBackEnd/Views/Shared/Error.cshtml]

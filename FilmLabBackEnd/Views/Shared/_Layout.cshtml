@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>@ViewData["Title"] - FilmLab</title>
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="~/images/favicon.png">
     <link rel="stylesheet" href="~/css/style.css"/>
 </head>
 <body>
@@ -13,15 +13,15 @@
     
     <div id="header-div">
         <div id="header-logo">
-            <a href="index.html"><img src = "images/logo-1.png" alt="logo" height="75"></a>
+            <a asp-action="Index"><img src = "~/images/logo-1.png" alt="logo" height="75"></a>
         </div>
         <div id="navigation-bar">
             <ul id="navbar">
-                <li><a href="~/films.html" class="header-menu">Фильмы</a></li>
-                <li><a href="~/gallery.html" class="header-menu">Галерея</a></li>
-                <li><a href="~/biography.html" class="header-menu">Биографии</a></li>
-                <li><a href="~/about.html"class="header-menu" >О нас</a></li>
-                <a href="user/registration"><img src="images/auth-image.png" id="auth-image"></a>
+                <li><a asp-controller="Home" asp-action="films" class="header-menu">Фильмы</a></li>
+                <li><a asp-controller="Home" asp-action="gallery" class="header-menu">Галерея</a></li>
+                <li><a asp-controller="Home" asp-action="biography" class="header-menu">Биографии</a></li>
+                <li><a asp-controller="Home" asp-action="about" class="header-menu" >О нас</a></li>
+                <a asp-controller="User" asp-action="Registration"><img src="~/images/auth-image.png" id="auth-image"></a>
             </ul>
         </div>
     </div>
@@ -33,22 +33,22 @@
 <footer class="footer-distributed">
    <div class="footer-right">
            <a href="https://vk.com/i.zheltikov">
-               <img class="footer-social-network-icon" src="images/footer/vk.png">
+               <img class="footer-social-network-icon" src="~/images/footer/vk.png">
            </a>
            <a href="https://instagram.com/i.zheltikov">
-               <img class="footer-social-network-icon" src="images/footer/inst.png">
+               <img class="footer-social-network-icon" src="~/images/footer/inst.png">
            </a>
            <a href="https://github.com/Voxsie">
-               <img class="footer-social-network-icon" src="images/footer/github.png">
+               <img class="footer-social-network-icon" src="~/images/footer/github.png">
            </a>
        </div>
        <div class="footer-left">
            <p class="footer-links">
-               <a class="link-1" href="index.html">Главная </a>
-               <a href="films.html">Фильмы </a>
-               <a href="gallery.html">Галерея </a>
-               <a href="biography.html">Биографии </a>
-               <a href="about.html">О нас</a>
+               <a class="link-1" asp-action="index">Главная </a>
+               <a asp-action="films">Фильмы </a>
+               <a asp-action="gallery">Галерея </a>
+               <a asp-action="biography">Биографии </a>
+               <a asp-action="about">О нас</a>
            </p>
            <p>FilmLab &copy; 2021</p>
        </div>

@@ -26,5 +26,10 @@ namespace FilmLabBackEnd.Data
         {
             Connection.Insert(account);
         }
+
+        public Account getUserByEmail(string email)
+        {
+            return Accounts.FirstOrDefault(u => u.Nickname == email);
+        }
     }
 }

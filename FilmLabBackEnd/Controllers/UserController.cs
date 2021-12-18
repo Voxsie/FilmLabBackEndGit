@@ -50,11 +50,12 @@ namespace FilmLabBackEnd.Controllers
                     Nickname = request.Nickname,
                     Email = request.Email,
                     Password = PasswordHashing.Hasher.Encrypt(request.Password),
-                    Role = "User"
+                    Role = "Новичок в кино"
                 };
             
                 _data.AccountCreate(user);
-                return Redirect("https://localhost:7050/");
+                
+                return Redirect("https://localhost:7050/home/profile");
             }
             
             return View(request);
@@ -77,7 +78,7 @@ namespace FilmLabBackEnd.Controllers
                     HttpOnly = true
                 });
 
-                return Redirect("https://localhost:7050/");
+                return Redirect("https://localhost:7050/home/profile");
             }
             return View(request);
         }
